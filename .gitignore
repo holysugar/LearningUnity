@@ -1,0 +1,21 @@
+# http://d.hatena.ne.jp/murishinai/20130318/p1
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+
+# Unity?
+*.pidb
+*.csproj
+*.unityproj
+*.booproj
+
+# Mac
+*.DS_Store
+
+# Unity? MonoDevelop?
+*.svd
+*.user
+*.userprefs
+*.suo
+*.sln
