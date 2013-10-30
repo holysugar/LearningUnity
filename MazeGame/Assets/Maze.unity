@@ -234,6 +234,7 @@ GameObject:
   - 33: {fileID: 392064765}
   - 135: {fileID: 392064764}
   - 23: {fileID: 392064763}
+  - 54: {fileID: 392064767}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -292,6 +293,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!54 &392064767
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: f0e868644c2db46deb74852ed69188d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1330477153}
+  m_GameObject: {fileID: 392064762}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &485867790
 Prefab:
   m_ObjectHideFlags: 0
@@ -351,6 +368,7 @@ GameObject:
   - 33: {fileID: 526711474}
   - 135: {fileID: 526711473}
   - 23: {fileID: 526711472}
+  - 54: {fileID: 526711476}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -409,6 +427,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!54 &526711476
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: f0e868644c2db46deb74852ed69188d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 261360473}
+  m_GameObject: {fileID: 526711471}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &563668097
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +589,7 @@ GameObject:
   - 33: {fileID: 805696732}
   - 135: {fileID: 805696731}
   - 23: {fileID: 805696730}
+  - 54: {fileID: 805696734}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -613,6 +648,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!54 &805696734
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: f0e868644c2db46deb74852ed69188d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1947427323}
+  m_GameObject: {fileID: 805696729}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &832690031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1621,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1601152397}
+  - 54: {fileID: 1601152398}
   m_Layer: 0
   m_Name: Maze
   m_TagString: Untagged
@@ -1587,19 +1639,34 @@ Transform:
   m_LocalPosition: {x: .142214298, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 832690035}
-  - {fileID: 904166274}
+  - {fileID: 1967208821}
   - {fileID: 1492288351}
   - {fileID: 1876230078}
-  - {fileID: 1967208821}
+  - {fileID: 904166274}
   - {fileID: 2105897567}
+  - {fileID: 832690035}
   - {fileID: 2122798198}
   - {fileID: 563668101}
-  - {fileID: 258553398}
-  - {fileID: 695672807}
   - {fileID: 1034316644}
   - {fileID: 1501316613}
+  - {fileID: 695672807}
+  - {fileID: 258553398}
   m_Father: {fileID: 0}
+--- !u!54 &1601152398
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1601152396}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1871909706
 Prefab:
   m_ObjectHideFlags: 0
